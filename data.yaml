@@ -1,0 +1,13 @@
+train: /home/dslab/Documents/Car/train/images
+val: /home/dslab/Documents/Car/valid/images
+test: /home/dslab/Documents/Car/test/images
+
+nc: 2
+names: ['car', 'license plates']
+
+roboflow:
+  workspace: test-wccls
+  project: cars-yro7t
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/test-wccls/cars-yro7t/dataset/2
